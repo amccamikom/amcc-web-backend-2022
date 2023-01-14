@@ -28,3 +28,16 @@ echo count($nama);
 echo $nama[0];
 echo $nama[1];
 echo $nama[2];
+
+//contoh 3 associative array
+$umur = array("andi"=>"35", "budi"=>"37", "yudi"=>"43");
+
+// bisa juga di tulis dengan cara
+$umur['andi'] = "35";
+$umur['budi'] = "37";
+$umur['yudi'] = "43"; 
+
+echo "andi is " . $umur['andi'] . " years old."."<br>";
+echo "budi is " . $umur['budi'] . " years old."."<br>";
+echo "yudi is " . $umur['yudi'] . " years old."."<br>";
+
