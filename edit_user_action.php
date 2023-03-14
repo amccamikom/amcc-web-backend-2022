@@ -43,7 +43,7 @@
 
 
     // Membuat query update data
-    $query = "UPDATE users SET name='$name', email='$email', password='$password' WHERE username='$username'";
+    $query = "UPDATE users SET name='$name', email='$email', password='$password', updated_at = now() WHERE username='$username'";
 
     // Menjalankan query
     $sql = mysqli_query($conn, $query);
