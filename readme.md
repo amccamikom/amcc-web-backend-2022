@@ -6,7 +6,7 @@ Ini adalah hasil akhir dari praktikum di pelatihan minggu keempat. <br>
 ## Cara Menggunakan
 1. Clone repositori ini ke folder htdocs dengan nama pelatihan 4
     ```
-    git clone https://github.com/amccamikom/amcc-web-backend-2022/tree/pelatihan4 pelatihan4
+    git clone -b pelatihan4 https://github.com/amccamikom/amcc-web-backend-2022 pelatihan4
     ```
 2. Import sql file jika belum membuat database dan tabel untuk praktikum
 3. Ubah konfirgurasi file connection.php untuk mengatur alamat database
