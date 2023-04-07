@@ -4,9 +4,9 @@ Ini adalah hasil akhir dari praktikum di pelatihan minggu ketujuh. <br>
 [Modul Pelatihan](https://medium.com/amcc-amikom/mvc-laravel-study-case-dc2789a66d88)
 
 ## Cara Menggunakan
-1. Clone repositori ini ke folder htdocs dengan nama pelatihan 4
+1. Clone repositori ini ke folder kerja dengan nama _forum_diskusi_ atau bebas
     ```
-    git clone -b pelatihan7 https://github.com/amccamikom/amcc-web-backend-2022 pelatihan7
+    git clone -b pelatihan7 https://github.com/amccamikom/amcc-web-backend-2022 forum_diskusi
     ```
 2. Import sql file jika belum membuat database dan tabel untuk praktikum
 3. Copy file `.env.example` menjadi `.env`
